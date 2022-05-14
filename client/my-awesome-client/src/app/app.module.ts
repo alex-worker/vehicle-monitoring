@@ -13,7 +13,11 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AccordionModule,
+    PanelModule,
+    ButtonModule,
+    RadioButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
