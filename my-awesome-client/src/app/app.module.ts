@@ -1,6 +1,11 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+import { AccordionModule } from 'primeng/accordion';
+import { PanelModule } from 'primeng/panel';
+import { ButtonModule } from 'primeng/button';
+import { RadioButtonModule } from 'primeng/radiobutton';
+
 import { AppComponent } from './app.component';
 
 @NgModule({
@@ -8,7 +13,11 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AccordionModule,
+    PanelModule,
+    ButtonModule,
+    RadioButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
