@@ -11,5 +11,5 @@ init:
 	yarn init
 	yarn add @angular/cli --dev
 	$(NG) new ${CLIENT_NAME} --style=css --routing=false --skip-tests
-	cd ${CLIENT_NAME} && npm install primeng --save
-	cd ${CLIENT_NAME} && npm install primeicons --save
+	cd ${CLIENT_NAME} && yarn add primeng --save
+	cd ${CLIENT_NAME} && yarn add primeicons --save
